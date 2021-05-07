@@ -32,6 +32,8 @@
     flex-wrap: wrap;
     flex-direction: column;
     overflow-y: scroll !important;
+        align-items: center;
+    justify-content: center;
     }}
 
 @media (max-width: 1025px) {
@@ -47,7 +49,6 @@
 @media (max-width: 1025px) {
 .is-sticky #site-header.up-effect.header-down {
     height: 100% !important;
-    overflow-y: scroll;
 }}
 
 @media (max-width: 1025px) {
@@ -56,11 +57,12 @@
   color: #A67C52;
 }}
 
+@media (max-width: 1025px) and (min-width: 320px) {.elementor-nav-menu li {
+    width: 300px;
+}}
 
-@media (max-width: 1025px) {
-    .elementor-nav-menu li {
-    margin-right: 200px;
-    margin-left: 200px;
+@media (max-width: 319px) {.elementor-nav-menu li {
+    width: 280px;
 }}/* End custom CSS */
 /* Start custom CSS for section, class: .elementor-element-aa365fd *//*.elementor-nav-menu--main .elementor-item, .elementor-nav-menu--main .elementor-item {
     text-align: center;
