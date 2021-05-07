@@ -309,132 +309,84 @@ body:not(.elementor-editor-active) .c-scrollbar {
 	z-index: 99999;
 }
 /* FADe LEFT --------------- */
-body:not(.elementor-editor-active) .fade-left .elementor-container, 
-body:not(.elementor-editor-active) .fade-left .elementor-background-overlay, 
-body:not(.elementor-editor-active) .fade-left .elementor-widget-container {
+body:not(.elementor-editor-active) .elementor-section.effect-fade-left, 
+body:not(.elementor-editor-active) .elementor-column.effect-fade-left, 
+body:not(.elementor-editor-active) [data-element_type="widget"].effect-fade-left .elementor-widget-container {
 	opacity: 0;
-	transition: all 1s cubic-bezier(.215, .61, .355, 1);
-	transform: translateX(-30%);
+	transition: left 1s cubic-bezier(.215, .61, .355, 1), opacity 1s cubic-bezier(.215, .61, .355, 1);
+	left: -30%;
 	transition-delay: 0.35s;
+	position: relative;
 }
-body:not(.elementor-editor-active) .fade-left.is-inview .elementor-container, 
-body:not(.elementor-editor-active) .fade-left.is-inview .elementor-background-overlay, 
-body:not(.elementor-editor-active) .fade-left.is-inview .elementor-widget-container {
+body:not(.elementor-editor-active) .fade-left.elementor-section.effect-fade-left, 
+body:not(.elementor-editor-active) .fade-left.elementor-column.effect-fade-left, 
+body:not(.elementor-editor-active) [data-element_type="widget"].fade-left.effect-fade-left .elementor-widget-container {
 	opacity: 1;
-	transform: translateX(0px);
+	left: 0px;
 }
 /* -------------------------- */
 /* FADE RigHT --------------- */
-body:not(.elementor-editor-active) .fade-right .elementor-container, 
-body:not(.elementor-editor-active) .fade-right .elementor-background-overlay, 
-body:not(.elementor-editor-active) .fade-right .elementor-widget-container {
+body:not(.elementor-editor-active) .elementor-section.effect-fade-right, 
+body:not(.elementor-editor-active) .elementor-column.effect-fade-right, 
+body:not(.elementor-editor-active) [data-element_type="widget"].effect-fade-right .elementor-widget-container {
 	opacity: 0;
-	transition: all 1s cubic-bezier(.215, .61, .355, 1);
-	transform: translateX(30%);
+	transition: left 1s cubic-bezier(.215, .61, .355, 1), opacity 1s cubic-bezier(.215, .61, .355, 1);
+	left: 30%;
 	transition-delay: 0.35s;
+	position: relative;
 }
-body:not(.elementor-editor-active) .fade-right.is-inview .elementor-container, 
-body:not(.elementor-editor-active) .fade-right.is-inview .elementor-background-overlay, 
-body:not(.elementor-editor-active) .fade-right.is-inview .elementor-widget-container {
+body:not(.elementor-editor-active) .fade-right.elementor-section.effect-fade-right, 
+body:not(.elementor-editor-active) .fade-right.elementor-column.effect-fade-right, 
+body:not(.elementor-editor-active) [data-element_type="widget"].fade-right.effect-fade-right .elementor-widget-container {
 	opacity: 1;
-	transform: translateX(0px);
+	left: 0px;
 }
 /* -------------------------- */
 /* FADE UP --------------- */
-body:not(.elementor-editor-active) .fade-up .elementor-container, 
-body:not(.elementor-editor-active) .fade-up .elementor-background-overlay, 
-body:not(.elementor-editor-active) .fade-up .elementor-widget-container {
+body:not(.elementor-editor-active) .elementor-section.effect-fade-up, 
+body:not(.elementor-editor-active) .elementor-column.effect-fade-up, 
+body:not(.elementor-editor-active) [data-element_type="widget"].effect-fade-up .elementor-widget-container {
 	opacity: 0;
-	transition: all 1s cubic-bezier(.215, .61, .355, 1);
-	transform: translateY(10%);
+	transition: top 1s cubic-bezier(.215, .61, .355, 1), opacity 1s cubic-bezier(.215, .61, .355, 1);
+	top: -10%;
 	transition-delay: 0.35s;
+	position: relative;
 }
-body:not(.elementor-editor-active) .fade-up.is-inview .elementor-container, 
-body:not(.elementor-editor-active) .fade-up.is-inview .elementor-background-overlay, 
-body:not(.elementor-editor-active) .fade-up.is-inview .elementor-widget-container {
+body:not(.elementor-editor-active) .fade-up.elementor-section.effect-fade-up, 
+body:not(.elementor-editor-active) .fade-up.elementor-column.effect-fade-up, 
+body:not(.elementor-editor-active) [data-element_type="widget"].fade-up.effect-fade-up .elementor-widget-container {
 	opacity: 1;
-	transform: translateY(0px);
+	top: 0px;
 }
 /* -------------------------- */
 /* FADE DOWN --------------- */
-body:not(.elementor-editor-active) .fade-down .elementor-container, 
-body:not(.elementor-editor-active) .fade-down .elementor-background-overlay, 
-body:not(.elementor-editor-active) .fade-down .elementor-widget-container {
+body:not(.elementor-editor-active) .elementor-section.effect-fade-down, 
+body:not(.elementor-editor-active) .elementor-column.effect-fade-down, 
+body:not(.elementor-editor-active) [data-element_type="widget"].effect-fade-down .elementor-widget-container {
 	opacity: 0;
-	transition: all 1s cubic-bezier(.215, .61, .355, 1);
-	transform: translateY(-10%);
+	transition: top 1s cubic-bezier(.215, .61, .355, 1), opacity 1s cubic-bezier(.215, .61, .355, 1);
+	top: 10%;
 	transition-delay: 0.35s;
+	position: relative;
 }
-body:not(.elementor-editor-active) .fade-down.is-inview .elementor-container, 
-body:not(.elementor-editor-active) .fade-down.is-inview .elementor-background-overlay, 
-body:not(.elementor-editor-active) .fade-down.is-inview .elementor-widget-container {
+body:not(.elementor-editor-active) .fade-down.elementor-section.effect-fade-down, 
+body:not(.elementor-editor-active) .fade-down.elementor-column.effect-fade-down, 
+body:not(.elementor-editor-active) [data-element_type="widget"].fade-down.effect-fade-down .elementor-widget-container {
 	opacity: 1;
-	transform: translateY(0px);
+	top: 0;
 }
 /* -------------------------- */
 /* FADE --------------- */
-body:not(.elementor-editor-active) .fade .elementor-container, 
-body:not(.elementor-editor-active) .fade .elementor-background-overlay, 
-body:not(.elementor-editor-active) .fade .elementor-widget-container {
+body:not(.elementor-editor-active) .elementor-section.effect-fade-in, 
+body:not(.elementor-editor-active) .elementor-column.effect-fade-in, 
+body:not(.elementor-editor-active) [data-element_type="widget"].effect-fade-in .elementor-widget-container {
 	opacity: 0;
-	transition: all 1s cubic-bezier(.215, .61, .355, 1);
+	transition: opacity 1s cubic-bezier(.215, .61, .355, 1);
 	transition-delay: 0.35s;
 }
-body:not(.elementor-editor-active) .fade.is-inview .elementor-container, 
-body:not(.elementor-editor-active) .fade.is-inview .elementor-background-overlay, 
-body:not(.elementor-editor-active) .fade.is-inview .elementor-widget-container {
+body:not(.elementor-editor-active) .fade-in.elementor-section.effect-fade-in, 
+body:not(.elementor-editor-active) .fade-in.elementor-column.effect-fade-in, 
+body:not(.elementor-editor-active) [data-element_type="widget"].fade-in.effect-fade-in .elementor-widget-container {
 	opacity: 1;
-}
-/* -------------------------- */
-/* REVeAL TOP --------------- OFFICIALLY UNSUPPORTED !!! */
-body:not(.elementor-editor-active) .reveal-top .elementor-widget-container {
-	height: 0;
-	overflow: hidden;
-	transition: all 1.52s cubic-bezier(.215, .61, .355, 1);
-	transition-delay: 0.35s;
-}
-body:not(.elementor-editor-active) .reveal-top.is-inview .elementor-widget-container {
-	height: 100%;
-}
-body:not(.elementor-editor-active) .reveal-top .elementor-widget-container img {
-	height: 40vh;
-	display: block;
-	margin: 0 auto;
-	object-fit: cover;
-}
-/* -------------------------- */
-/* REVeAL LEFT --------------- */
-body:not(.elementor-editor-active) .reveal-left .elementor-widget-container {
-	width: 0;
-	height: 100%;
-	transition: all 1.52s cubic-bezier(.215, .61, .355, 1);
-	transition-delay: 0.35s;
-}
-body:not(.elementor-editor-active) .reveal-left.is-inview .elementor-widget-container {
-	width: 100%;
-}
-body:not(.elementor-editor-active) .reveal-left .elementor-widget-container img {
-	height: 40vh;
-	display: block;
-	margin: 0 auto;
-	object-fit: cover;
-}
-/* -------------------------- */
-/* ZOOM IN --------------- */
-body:not(.elementor-editor-active) .zoom-in .elementor-widget-container {
-	opacity: 0;
-	transform: scale(1.2);
-	transition: all 1s cubic-bezier(.215, .61, .355, 1);
-	transition-delay: 0.35s;
-}
-body:not(.elementor-editor-active) .zoom-in.is-inview .elementor-widget-container {
-	opacity: 1;
-	transform: scale(1)
-}
-body:not(.elementor-editor-active) .zoom-in .elementor-widget-container img {
-	height: 40vh;
-	display: block;
-	margin: 0 auto;
-	object-fit: cover;
 }
 /* -------------------------- */
