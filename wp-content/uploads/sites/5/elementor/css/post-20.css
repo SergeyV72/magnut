@@ -40,7 +40,7 @@
 }}
 
     
-    @media (max-width: 1025px) {
+@media (max-width: 1025px) {
 [class^=eicon] {
   z-index: 9998;
   color: #A67C52;
@@ -52,7 +52,12 @@
 
 @media (max-width: 319px) {.elementor-nav-menu {
     width: 280px;
-}}/* End custom CSS */
+}}
+
+@media (max-width: 1025px) {
+.is-sticky #site-header.up-effect {
+    height: -webkit-fill-available;
+}/* End custom CSS */
 /* Start custom CSS */.elementor-nav-menu--main .elementor-item, .elementor-nav-menu--main .elementor-item {
   text-align: center;
 	height: 3em;
