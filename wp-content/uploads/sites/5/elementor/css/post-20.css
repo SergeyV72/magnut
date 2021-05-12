@@ -59,8 +59,8 @@
 }}
 
 @media (max-width: 1025px) {
-.up-effect.header-down {
-    height: -webkit-fill-available;
+.is-sticky #site-header.up-effect.header-down {
+    display: initial;
 }}/* End custom CSS */
 /* Start custom CSS */.elementor-nav-menu--main .elementor-item, .elementor-nav-menu--main .elementor-item {
   text-align: center;
