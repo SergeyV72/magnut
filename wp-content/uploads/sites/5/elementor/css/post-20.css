@@ -58,10 +58,10 @@
     width: 280px;
 }}
 
-/@media (max-width: 1025px) {
-.is-sticky #site-header.up-effect {
+@media (max-width: 1025px) {
+.up-effect.header-down {
     height: -webkit-fill-available;
-}/* End custom CSS */
+}}/* End custom CSS */
 /* Start custom CSS */.elementor-nav-menu--main .elementor-item, .elementor-nav-menu--main .elementor-item {
   text-align: center;
 	height: 3em;
