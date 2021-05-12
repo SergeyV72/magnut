@@ -58,7 +58,7 @@
 
 @media (max-width: 1025px) {
 .is-sticky #site-header.up-effect.header-down {
-    display: initial;
+    display: -webkit-inline-box;
 }}/* End custom CSS */
 /* Start custom CSS for section, class: .elementor-element-aa365fd *//*.elementor-nav-menu--main .elementor-item, .elementor-nav-menu--main .elementor-item {
     text-align: center;
