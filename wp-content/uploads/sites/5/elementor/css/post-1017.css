@@ -26,30 +26,22 @@
     }}
 
 @media (max-width: 1025px) {
-.elementor-nav-menu--stretch .elementor-nav-menu__container.elementor-nav-menu--dropdown{
-    display: flex;
+.elementor-nav-menu--dropdown.elementor-nav-menu__container{
+    display: flex !important;
+    align-items: center;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0;
+    width: 100% !important;;
+    height: 100% !important;
+    border-radius: 0px 0px 0px 0px !important;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
     overflow-y: scroll !important;
-    align-items: center;
-    }}
-
-@media (max-width: 1025px) {
-.elementor-nav-menu--stretch .elementor-nav-menu__container.elementor-nav-menu--dropdown {
-    top: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    height: 100%;
-    position: fixed !important;
-    border-radius: 0px 0px 0px 0px !important;
 }}
 
-/*@media (max-width: 1025px) {
-.is-sticky #site-header.up-effect.header-down {
-    height: 100% !important;
-}}*/
-
+    
 @media (max-width: 1025px) {
 [class^=eicon] {
   z-index: 9998;
@@ -62,6 +54,11 @@
 
 @media (max-width: 319px) {.elementor-nav-menu {
     width: 280px;
+}}
+
+@media (max-width: 1025px) {
+.is-sticky #site-header.up-effect.header-down {
+    display: initial;
 }}/* End custom CSS */
 /* Start custom CSS for section, class: .elementor-element-f10d4a9 *//*.elementor-nav-menu--main .elementor-item, .elementor-nav-menu--main .elementor-item {
     text-align: center;
