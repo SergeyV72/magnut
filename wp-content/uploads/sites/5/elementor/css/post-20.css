@@ -59,7 +59,7 @@
 }}
 
 /@media (max-width: 1025px) {
-.is-sticky #site-header.up-effect.header-down {
+.is-sticky #site-header.up-effect {
     height: -webkit-fill-available;
 }/* End custom CSS */
 /* Start custom CSS */.elementor-nav-menu--main .elementor-item, .elementor-nav-menu--main .elementor-item {
