@@ -37,6 +37,10 @@
     width: 100% !important;;
     height: 100% !important;
     border-radius: 0px 0px 0px 0px !important;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow-y: scroll !important;
 }}
 
     
