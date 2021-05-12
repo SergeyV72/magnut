@@ -54,7 +54,7 @@
     width: 280px;
 }}
 
-@media (max-width: 1025px) {
+/@media (max-width: 1025px) {
 .is-sticky #site-header.up-effect.header-down {
     height: 100%;
 }/* End custom CSS */
