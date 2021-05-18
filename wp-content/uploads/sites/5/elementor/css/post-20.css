@@ -61,7 +61,7 @@
 @media (max-width: 1025px) {
 .is-sticky #site-header.up-effect.header-down {
     display: -webkit-inline-box;
-    height: 100%;
+    height: 100vh !important;
 }}/* End custom CSS */
 /* Start custom CSS */.elementor-nav-menu--main .elementor-item, .elementor-nav-menu--main .elementor-item {
   text-align: center;
