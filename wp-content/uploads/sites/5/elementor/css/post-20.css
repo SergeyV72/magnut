@@ -59,7 +59,7 @@
 }}
 
 @media (max-width: 1025px) {
-.is-sticky #site-header.up-effect.header-down {
+#site-header.fixed-scroll {
     display: -webkit-inline-box;
     height: 100vh !important;
 }}/* End custom CSS */
