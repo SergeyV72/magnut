@@ -60,8 +60,12 @@
 
 @media (max-width: 1025px) {
 #site-header.fixed-scroll {
-    display: -webkit-inline-box;
     height: 100vh !important;
+}}
+
+@media (max-width: 1025px) {
+div#site-header-sticky-wrapper.oceanwp-sticky-header-holder {
+    height: 100% !important;
 }}/* End custom CSS */
 /* Start custom CSS */.elementor-nav-menu--main .elementor-item, .elementor-nav-menu--main .elementor-item {
   text-align: center;
