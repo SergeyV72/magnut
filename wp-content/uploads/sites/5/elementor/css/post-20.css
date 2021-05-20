@@ -60,7 +60,7 @@
 
 @media (max-width: 1025px) {
 .is-sticky #site-header.up-effect.header-up {
-    height: -webkit-fill-available;
+    height: 100vh;
 }}/* End custom CSS */
 /* Start custom CSS */.elementor-nav-menu--main .elementor-item, .elementor-nav-menu--main .elementor-item {
   text-align: center;
