@@ -58,9 +58,9 @@
 
 
 
-/@media (max-width: 1025px) {
-.elementor-nav-menu__container {
-    height: 100% !important;
+@media (max-width: 1025px) {
+.is-sticky #site-header.up-effect.header-up {
+    height: -webkit-fill-available;
 }}/* End custom CSS */
 /* Start custom CSS */.elementor-nav-menu--main .elementor-item, .elementor-nav-menu--main .elementor-item {
   text-align: center;
