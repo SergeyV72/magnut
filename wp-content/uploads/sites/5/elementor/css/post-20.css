@@ -60,12 +60,7 @@
 
 @media (max-width: 1025px) {
 .is-sticky #site-header.up-effect.header-up {
-    height: 0%;
-}}
-
-@media (max-width: 1025px) {
-.elementor-nav-menu--toggle .elementor-menu-toggle.elementor-active+.elementor-nav-menu__container {
-    height: 100vh !important;
+    height: 100vh;
 }}/* End custom CSS */
 /* Start custom CSS */.elementor-nav-menu--main .elementor-item, .elementor-nav-menu--main .elementor-item {
   text-align: center;
