@@ -18,6 +18,9 @@
 /* Start custom CSS for html, class: .elementor-element-71147e1 */.elementor-1014 .elementor-element.elementor-element-71147e1 > .elementor-widget-container {
     text-align: end;
 }/* End custom CSS */
+/* Start custom CSS for image, class: .elementor-element-7db2199 */#logo-menu {
+    opacity: 0.6 !important;
+}/* End custom CSS */
 /* Start custom CSS for column, class: .elementor-element-c791e35 */.elementor-1014 .elementor-element.elementor-element-c791e35:not(.elementor-motion-effects-element-type-background) > .elementor-column-wrap {
     height: 100vh;
 }/* End custom CSS */
