@@ -83,13 +83,17 @@
     display: none;
 }
 
-body.elementor-page .elementor-widget-menu-anchor { content: "";
+body.admin-bar .dialog-type-lightbox {
+    position: fixed;
+}
+
+/*body.elementor-page .elementor-widget-menu-anchor { content: "";
   display:block;
   height: 170px; /* fixed header height*/
-  margin: -170px 0 0; /* negative fixed header height */
-  visibility: hidden;
+/*  margin: -170px 0 0; /* negative fixed header height */
+/*  visibility: hidden;
   pointer-events: none;
- }
+ }*/
  
  
 @media (max-width: 767px) and (min-width: 560px) {
