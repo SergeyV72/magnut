@@ -87,6 +87,10 @@ body.admin-bar .dialog-type-lightbox {
     position: fixed;
 }
 
+.elementor-slideshow__title {
+    display: none;
+}
+
 /*body.elementor-page .elementor-widget-menu-anchor { content: "";
   display:block;
   height: 170px; /* fixed header height*/
