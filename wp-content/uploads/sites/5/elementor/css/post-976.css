@@ -20,6 +20,10 @@
 #site-header-inner {
     padding-right: 0 !important;
     padding-left: 0 !important;
+}
+
+.elementor-nav-menu--main .elementor-item:focus {
+	outline: none !important;
 }/* End custom CSS */
 /* Start custom CSS for image, class: .elementor-element-dcf9f01 */#logo-menu-drop {
     opacity: 0.6 !important;
